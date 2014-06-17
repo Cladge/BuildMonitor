@@ -110,10 +110,10 @@ public class BuildMonitor extends Application {
 		this.iniFilePath = new File(BuildMonitor.class.getResource(INI_FILE_NAME).toString());
 		System.out.println(this.iniFilePath);
 		if(this.iniFilePath.exists()) {
-			System.out.println(this.INI_FILE_NAME + " exists!");
+			System.out.println(INI_FILE_NAME + " exists!");
 		}
 		else {
-			System.out.println(this.INI_FILE_NAME + " does NOT exist!");
+			System.out.println(INI_FILE_NAME + " does NOT exist!");
 		}
 		
 		System.out.println(System.getProperty("user.home"));
